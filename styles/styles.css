@@ -89,15 +89,15 @@ nav a:hover {
 }
 
 .nav-buttons .reg {
-  border: 2px solid hsl(0, 0%, 8%);
-  background-color: hsl(0, 0%, 8%);
-  color: hsl(0, 0%, 98%);
+  border: 2px solid hsl(0, 0%, 41%);
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 41%);
   transition: 0.2s;
 }
 
 .nav-buttons .reg:hover {
-  background-color: white;
-  color: hsl(0, 0%, 8%);
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
 }
 
 .dropdown-item {
