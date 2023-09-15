@@ -241,7 +241,15 @@ section p {
 }
 
 .reg2 {
-  width: 200px;
+  border: 2px solid hsl(0, 0%, 8%);
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  transition: 0.2s;
+}
+
+.reg2:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 8%);
 }
 
 .menu {
