@@ -1,4 +1,4 @@
-.mobile_menu {
+.mobile_menu.navbar {
     background-color: $white;
     width: 70%;
     height: 100vh;
@@ -8,7 +8,7 @@
     font-size: 1rem;
 }
 
-.mobile_menu.is-active {
+.mobile_menu.navbar.is-active {
     transform: translate(-100%);
 }
 

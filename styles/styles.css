@@ -1,3 +1,8 @@
+.wrapper {
+  overflow-x: hidden;
+  position: relative;
+}
+
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -19,7 +24,6 @@ body {
   font-weight: 500;
   font-size: 1.125rem;
   background-color: hsl(0, 0%, 98%);
-  overflow-x: hidden;
 }
 
 a, a:visited, a:hover {
@@ -244,7 +248,7 @@ section p {
   background-color: hsl(0, 0%, 98%);
 }
 
-.mobile_menu {
+.mobile_menu.navbar {
   background-color: hsl(0, 0%, 98%);
   width: 70%;
   height: 100vh;
@@ -254,7 +258,7 @@ section p {
   font-size: 1rem;
 }
 
-.mobile_menu.is-active {
+.mobile_menu.navbar.is-active {
   transform: translate(-100%);
 }
 
